@@ -1,3 +1,3 @@
 # Memory
 Basic Memory Management algorithms.
-File an issue for suggesting improvements to this meme-tier code !!
+Open to all suggestions for this meme-tier code :))
