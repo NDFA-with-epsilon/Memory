@@ -1,3 +1,6 @@
+#ifndef BEST_FIT
+#define BEST_FIT
+
 #define DEFAULT_SIZE 8 /*default memory request by a process*/
 #define SAMPLE_SIZE 5 /*number of processes */
 
@@ -25,3 +28,5 @@ process* CreateProcess(int size /* Memory required by the process */);
 void ExitProcess(process* ptr);
 void CheckProcessStatus(process** ptr);
 void CheckInternalFragmentation(bin* ptr);
+
+#endif
